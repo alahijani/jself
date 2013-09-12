@@ -1,0 +1,25 @@
+{
+  "author": "Ali Lahijani <alahijani@gmail.com>",
+  "name": "jself",
+  "description": "Implementation of the LF type system for JavaScript",
+  "version": "0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alahijani/jself.git"
+  },
+  "main": "jself.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tap": "~0.4.0",
+    "mkdirp": "0",
+    "rimraf": "1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "license": "BSD"
+}
